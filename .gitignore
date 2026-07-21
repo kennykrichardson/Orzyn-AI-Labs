@@ -67,10 +67,18 @@ data/
 exports/
 models/
 
-# Keep folder structure
+# Ignore contents, keep folders
+
+cache/**
 !cache/.gitkeep
+
+data/**
 !data/.gitkeep
+
+exports/**
 !exports/.gitkeep
+
+models/**
 !models/.gitkeep
 
 # ==========================================================
