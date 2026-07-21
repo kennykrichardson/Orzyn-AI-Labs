@@ -1,95 +1,270 @@
-# Orzyn AI m2.0 Research
+# 🚀 Orzyn AI Research
 
-> Research notebooks for developing the intelligence engine behind **Orzyn AI m2.0**.
-
----
-
-## Overview
-
-This repository contains the complete research and experimentation process used to design the Orzyn AI Developer Intelligence Platform.
-
-Unlike the production repository, this project focuses on experimentation, data exploration, GraphQL queries, repository intelligence, health scoring algorithms, and AI-assisted analysis using Jupyter notebooks.
-
-The notebooks document the evolution of the system from simple GitHub API exploration to a modular repository analysis framework.
+> Research notebooks powering the development of **Orzyn AI**, an AI-powered GitHub Repository Intelligence Platform.
 
 ---
 
-## Objectives
+## 📖 Overview
 
-- Learn GitHub GraphQL deeply
-- Explore repository intelligence
-- Build reusable data models
-- Design repository health scoring
-- Experiment with AI-assisted analysis
-- Prototype developer intelligence workflows
+This repository contains the complete research and experimentation process behind **Orzyn AI**.
 
----
+Unlike the production repository, this project focuses entirely on:
 
-## Notebook Structure
+- 🧠 AI experimentation
+- 🔍 GitHub GraphQL exploration
+- 📊 Repository intelligence
+- 📈 Health score research
+- 🤖 Developer intelligence
+- 📚 Rapid prototyping with Jupyter Notebooks
 
-| Notebook | Purpose |
-|-----------|---------|
-| 01 Configuration | Project configuration and environment setup |
-| 02 GraphQL | GraphQL validation and pagination |
-| 03 Repository | Repository metadata analysis |
-| 04 Commits | Commit history intelligence |
-| 05 Pull Requests | Pull request analytics |
-| 06 Issues | Issue analytics |
-| 07 Developers | Contributor and developer intelligence |
-| 08 AI Models | AI-assisted repository analysis |
-| 09 Health Score | Context-aware repository health scoring |
-| 10 Dashboard | Interactive experimentation and visualization |
+Every notebook represents a milestone in designing the final Orzyn AI engine.
 
 ---
 
-## Technologies
+# 🏗 Repository Structure
 
-- Python
-- Jupyter Notebook
-- GitHub GraphQL API
-- Requests
-- Pandas
-- Hugging Face Inference API
-- Dataclasses
-- Python Typing
+```text
+Orzyn-AI/
+│
+├── backend/
+│   │
+│   ├── notebooks/
+│   │   ├── 01_config.ipynb
+│   │   ├── 02_graphql.ipynb
+│   │   ├── 03_repository.ipynb
+│   │   ├── 04_commits.ipynb
+│   │   ├── 05_pull_requests.ipynb
+│   │   ├── 06_issues.ipynb
+│   │   ├── 07_developer.ipynb
+│   │   ├── 08_ai_models.ipynb
+│   │   └── 09_health_score.ipynb
+│   │
+│   ├── cache/
+│   ├── data/
+│   ├── exports/
+│   ├── models/
+│   │
+│   └── orzyn.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE
+```
 
 ---
 
-## Research Philosophy
+# ✨ Features
 
-This repository intentionally prioritizes experimentation over production architecture.
+- 🔍 GitHub GraphQL API
+- 📦 Repository Intelligence
+- 📝 Commit Analytics
+- 🔀 Pull Request Analytics
+- 🐞 Issue Intelligence
+- 👨‍💻 Developer Intelligence
+- 🤖 AI-powered Repository Analysis
+- ❤️ Context-aware Repository Health Scoring
 
-The notebooks contain:
+---
 
-- exploratory analysis
-- intermediate calculations
-- visualization
+# 📚 Notebook Roadmap
+
+| Notebook | Description |
+|----------|-------------|
+| 01 | ⚙ Configuration |
+| 02 | 🌐 GraphQL Validation |
+| 03 | 📦 Repository Intelligence |
+| 04 | 📝 Commit Intelligence |
+| 05 | 🔀 Pull Request Intelligence |
+| 06 | 🐞 Issue Intelligence |
+| 07 | 👨‍💻 Developer Intelligence |
+| 08 | 🤖 AI Models |
+| 09 | ❤️ Health Score |
+
+---
+
+# ⚙ Prerequisites
+
+Install:
+
+- Python **3.12+**
+- Git
+- Visual Studio Code (recommended)
+
+---
+
+# 📥 Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/Orzyn-AI.git
+
+cd Orzyn-AI
+```
+
+---
+
+# 🐍 Create a Virtual Environment
+
+### Windows
+
+```powershell
+python -m venv .venv
+```
+
+Activate:
+
+```powershell
+.venv\Scripts\activate
+```
+
+---
+
+### Linux / macOS
+
+```bash
+python3 -m venv .venv
+
+source .venv/bin/activate
+```
+
+---
+
+# 📦 Install Dependencies
+
+```bash
+pip install --upgrade pip
+
+pip install -r requirements.txt
+```
+
+---
+
+# 📓 Create the Jupyter Kernel
+
+Install the kernel into Jupyter:
+
+```bash
+python -m ipykernel install --user --name orzyn-ai --display-name "Python (Orzyn AI)"
+```
+
+After opening Jupyter or VS Code, select:
+
+```
+Python (Orzyn AI)
+```
+
+as the notebook kernel.
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+GITHUB_TOKEN=your_github_personal_access_token
+
+HF_TOKEN=your_huggingface_token
+```
+
+---
+
+# ▶ Running the Notebooks
+
+Launch Jupyter:
+
+```bash
+jupyter notebook
+```
+
+or
+
+```bash
+jupyter lab
+```
+
+Open the notebooks in order:
+
+```
+01_config
+
+↓
+
+02_graphql
+
+↓
+
+03_repository
+
+↓
+
+04_commits
+
+↓
+
+05_pull_requests
+
+↓
+
+06_issues
+
+↓
+
+07_developer
+
+↓
+
+08_ai_models
+
+↓
+
+09_health_score
+```
+
+Each notebook builds upon the previous one.
+
+---
+
+# 🧪 Technologies
+
+- 🐍 Python
+- 📓 Jupyter Notebook
+- 🌐 GitHub GraphQL API
+- 🤗 Hugging Face
+- 🐼 Pandas
+- 📡 Requests
+- 🔒 Python Dotenv
+
+---
+
+# 🎯 Purpose
+
+This repository documents the research and experimentation that led to the Orzyn AI architecture.
+
+The notebooks intentionally prioritize:
+
+- experimentation
 - validation
-- rapid prototyping
-- scoring experiments
+- rapid iteration
+- algorithm development
+- AI research
 
-Some duplication is intentional because each notebook was designed to be independently executable during development.
+over production-ready software engineering.
 
----
-
-## Production Repository
-
-The production implementation is maintained separately.
-
-This research repository serves as the design history for the Orzyn AI engine and is preserved as a record of the experimentation process.
+The production implementation lives in a separate repository.
 
 ---
 
-## Author
+# 👨‍💻 Author
 
-**Kenny Richardson Kodipally**
+**Kenny Richardson**
 
 Computer Science Engineering (AI & ML)
 
-Developer | AI Engineer | Software Architect
+Developer • AI Engineer • Software Architect
 
 ---
 
-## License
+# 📄 License
 
-This project is released under the MIT License.
+Licensed under the **MIT License**.

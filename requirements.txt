@@ -1,0 +1,21 @@
+# ==========================================================
+# Orzyn AI Research
+# Requirements
+# ==========================================================
+
+# GitHub API
+requests>=2.32.0
+
+# Environment Variables
+python-dotenv>=1.1.0
+
+# Data Analysis
+pandas>=2.3.0
+
+# AI
+huggingface_hub>=0.34.0
+
+# Jupyter
+jupyter>=1.1.1
+notebook>=7.4.4
+ipykernel>=6.30.0
